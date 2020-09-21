@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\ordercontroller;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,8 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::group(['prefix' => 'admin'], function () {
-    Route::group(['prefix' => 'orders'], function () {
-        Route::get('orderview', 'ordercontroller@orderview');
-    });
-    });
+
+Route::get("orderview",[ordercontroller::class,'getorder']);
