@@ -21,3 +21,8 @@ Route::group(['prefix' => 'admin'], function () {
         Route::get('orderview', 'ordercontroller@orderview');
     });
     });
+
+
+
+//login
+
