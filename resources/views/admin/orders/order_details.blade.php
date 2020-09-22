@@ -37,10 +37,7 @@
 			<td >tiền</td>
             <td >ngày mua</td>
             <td >ghi chú</td>
-            <td>
-           <a href=""> <button class="btn btn-primary">Chi tiết</button></a>
-            <button class="btn btn-primary">xóa</button>
-            </td>
+           
                 </tbody>
             </table>
         </div>

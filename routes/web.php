@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
+//order
 Route::get("orderview",[ordercontroller::class,'getorder']);
-
+Route::get("orderdetails",[ordercontroller::class,'getorderdetails']);
+Route::get("orderuser",[ordercontroller::class,'getorderuser']);
