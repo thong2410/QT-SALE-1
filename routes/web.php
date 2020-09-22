@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get("orderview",[ordercontroller::class,'getorder']);
+
