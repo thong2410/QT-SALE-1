@@ -44,7 +44,7 @@
                                 <td>20000</td>
                                 <td>1</td>
                                 <td style="float: right;">
-                                    <a href="edit.html"><button class="btn btn-primary">sửa</button></a>
+                                    <a href="edit.php"><button class="btn btn-primary">sửa</button></a>
                                     <button class="btn btn-primary">xóa</button>
                                 </td>
                             </tr>
@@ -55,7 +55,7 @@
                                 <td>20000</td>
                                 <td>1</td>
                                 <td style="float: right;">
-                                    <a href="edit.html"><button class="btn btn-primary">sửa</button></a>
+                                    <a href="edit.php"><button class="btn btn-primary">sửa</button></a>
                                     <button class="btn btn-primary">xóa</button>
                                 </td>
                             </tr>
@@ -66,7 +66,7 @@
                                 <td>20000</td>
                                 <td>1</td>
                                 <td style="float: right;">
-                                    <a href="edit.html"><button class="btn btn-primary">sửa</button></a>
+                                    <a href="edit.php"><button class="btn btn-primary">sửa</button></a>
                                     <button class="btn btn-primary">xóa</button>
                                 </td>
                             </tr>
@@ -77,7 +77,7 @@
                                 <td>20000</td>
                                 <td>1</td>
                                 <td style="float: right;">
-                                    <a href="edit.html"><button class="btn btn-primary">sửa</button></a>
+                                    <a href="edit.php"><button class="btn btn-primary">sửa</button></a>
                                     <button class="btn btn-primary">xóa</button>
                                 </td>
                             </tr>
