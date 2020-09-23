@@ -6,7 +6,7 @@ use Illuminate\Routing\Controller;
 
 use Illuminate\Http\Request;
 
-class ordercontroller extends Controller
+class orderscontroller extends Controller
 {
     //donhang
     public function getorder(){
@@ -20,3 +20,4 @@ class ordercontroller extends Controller
         return view("site.orderuser");
     }
 }
+

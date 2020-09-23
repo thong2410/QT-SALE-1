@@ -5,7 +5,7 @@
 <div class="bg-light" style="height: 800px; width: 80%; float: right;">
     <div class="headersp">
 	<header class="card-heading col-6">
-      <h1>  DANH SÁCH HÓA  </h1>
+      <h1>  DANH SÁCH HÓA ĐƠN  </h1>
     </header>
     <table class="table align-items-center table-flush">
         <thead class="thead-light">
