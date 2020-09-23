@@ -30,5 +30,7 @@
                 </tbody>
             </table>
         </div>
-
+                    <?php
+                    echo "Hello "
+                    ?>
         @endsection
