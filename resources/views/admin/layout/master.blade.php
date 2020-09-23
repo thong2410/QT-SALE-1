@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>@yield('tittle')</title>
+    <title>@yield('title')</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -38,7 +38,8 @@
     width: 100px;
     height: 100px;
 }
-
+.p-2 a{text-decoration: none}
+.admin{font-size: 100px;margin: 335px 0 0 335px;}
     </style>
 
 </head>
@@ -47,7 +48,7 @@
     <div class="container-xl">
         <div id="menu" style="height: 800px; width: 20%; float: left;">
             <div class=" p-2">
-                <a id="logo">Flower Shop</a>
+                <a href="admin" id="logo">Flower Shop</a>
             </div>
             <div  class=" p-2">
             <h3 class="text-center mr-4" style="color:orangered">admin</h3>
@@ -91,7 +92,7 @@
                 </form>
            </div>
         </div>
-        
+
            @yield('content')
 
     </div>

@@ -22,3 +22,5 @@ Route::get("orderview",[orderscontroller::class,'getorder']);
 Route::get("orderdetails",[orderscontroller::class,'getorderdetails']);
 Route::get("orderuser",[orderscontroller::class,'getorderuser']);
 Route::get("admin",[admincontroller::class,'getadmin']);
+
+

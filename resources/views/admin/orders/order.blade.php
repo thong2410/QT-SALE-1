@@ -1,5 +1,5 @@
 @extends('admin.layout.master')
-@section('tile','order')
+@section('title','order')
 @section('content')
 
 <div class="bg-light" style="height: 800px; width: 80%; float: right;">

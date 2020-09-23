@@ -1,5 +1,5 @@
 @extends('admin.layout.master')
-@section('tile','orderdetails')
+@section('title','orderdetails')
 @section('content')
 <div class="bg-light" style="height: 800px; width: 80%; float: right;">
     <div class="headersp">
@@ -30,7 +30,5 @@
                 </tbody>
             </table>
         </div>
-                    <?php
-                    echo "Hello "
-                    ?>
+
         @endsection
